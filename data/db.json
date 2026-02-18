@@ -1,0 +1,97 @@
+{
+  "students": [
+    {
+      "regNo": "SCMS/001",
+      "name": "Amina Hassan Abudullahi",
+      "email": "amina@example.com",
+      "year": 4,
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "regNo": "SCMS/002",
+      "name": "Brian Otieno",
+      "email": "brian@example.com",
+      "year": 2
+    },
+    {
+      "regNo": "SCMS/002",
+      "name": "penina wanyama",
+      "email": "wpenina@gmail.com",
+      "year": 2,
+      "id": "3120"
+    },
+    {
+      "id": "7767",
+      "regNo": "SWS/2025",
+      "name": "Nani Wanyama",
+      "email": "nani@gmail.com",
+      "year": 3
+    },
+    {
+      "id": "915d",
+      "regNo": "SCMS/002",
+      "name": "penina wanyama",
+      "email": "wpenina@gmail.com",
+      "year": 1
+    }
+  ],
+  "courses": [
+    {
+      "id": "1",
+      "code": "DS101",
+      "title": "Introduction to Data Science",
+      "credits": 3
+    },
+    {
+      "id": "2",
+      "code": "CS102",
+      "title": "Web Development",
+      "credits": 4
+    },
+    {
+      "id": "3e23",
+      "code": "SHA",
+      "title": "Slippery Trails",
+      "credits": 3
+    }
+  ],
+  "enrollments": [
+    {
+      "id": "1",
+      "studentId": 1,
+      "courseId": 1,
+      "grade": "A"
+    },
+    {
+      "id": "2",
+      "studentId": 2,
+      "courseId": 1,
+      "grade": "B"
+    },
+    {
+      "id": "3136",
+      "studentId": 3120,
+      "courseId": 1,
+      "grade": "B"
+    },
+    {
+      "id": "e58b",
+      "studentId": 3120,
+      "courseId": 2,
+      "grade": "I"
+    },
+    {
+      "id": "c6c5",
+      "studentId": "7767",
+      "courseId": "3e23",
+      "grade": "A"
+    },
+    {
+      "id": "45f9",
+      "studentId": "1",
+      "courseId": "2",
+      "grade": ""
+    }
+  ]
+}

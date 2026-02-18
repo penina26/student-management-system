@@ -1,0 +1,14 @@
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App background */
+body {
+    background: radial-gradient(circle at top, #f8fafc, #eef2ff, #f8fafc);
+}
+
+/* Optional: a subtle gradient feel */
+#root {
+    @apply min-h-screen;
+}
