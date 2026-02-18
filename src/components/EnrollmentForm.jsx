@@ -10,7 +10,7 @@ const GRADES = ["", "A", "B", "C", "D", "E", "F", "I"]; // I = Incomplete
  * mode="course":  You are on CourseDetail  -> pick a student
  *
  * We treat ALL ids as STRINGS.
- * JSON Server may generate string ids (e.g. "c1e9"), so Number(id) would become NaN.
+ * JSON Server may generate string ids (e.g. "c1e9")
  */
 export default function EnrollmentForm({
     mode, // "student" | "course"
@@ -31,7 +31,7 @@ export default function EnrollmentForm({
     const toId = (v) => String(v ?? "").trim();
 
     /**
-     * Build sets using STRING ids (not Number)
+     * Build sets using STRING ids 
      * This prevents duplicates reliably ("1" !== 1, and "c1e9" becomes NaN if Number() is used).
      */
     const enrolledStudentIds = useMemo(

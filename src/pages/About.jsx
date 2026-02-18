@@ -131,7 +131,7 @@ export default function About() {
                         <li>Read courses and students information</li>
                         <li>Update courses and student information</li>
                         <li>Delete student or course information</li>
-                        <li>Deploy to a hosting service (future)</li>
+                        <li>Deploy to a hosting service future</li>
                     </ul>
                 </div>
             </section>

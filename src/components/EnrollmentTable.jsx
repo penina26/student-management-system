@@ -5,8 +5,7 @@ const GRADES = ["", "A", "B", "C", "D", "E", "F", "I"]; // I = Incomplete
 /**
  * mode="student": You are on StudentDetail -> table shows COURSES
  * mode="course":  You are on CourseDetail  -> table shows STUDENTS
- *
- * IMPORTANT: ids are treated as STRINGS.
+ * ids are treated as STRINGS.
  * So maps should be Map<string, student> / Map<string, course>.
  */
 export default function EnrollmentTable({
