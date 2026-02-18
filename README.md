@@ -73,8 +73,35 @@ SCMS provides a platform for managing student and course registrations and enabl
 - **Mock Backend:** JSON Server
 
 ---
+
+---
+
+## Setup & Installation
+
+### 1) Clone / Download the project
+```bash
+git clone https://github.com/penina26/student-management-system
+cd student-management-system
 ```
+### 2) Install dependencies
+```bash
+npm install
+```
+
+### 3) Start JSON Server (Backend)
+```bash
+npx json-server --watch data/db.json --port 3001
+```
+
+### 4) Start the React App (Frontend)
+
+```bash
+npm run dev
+```
+---
 ## Project Structure
+
+```
 project-root/
 │
 ├── public/
@@ -112,28 +139,4 @@ project-root/
 │ └── db.json
 │
 └── README.md
-```
----
-
-## Setup & Installation
-
-### 1) Clone / Download the project
-```bash
-git clone https://github.com/penina26/student-management-system
-cd student-management-system
-```
-### 2) Install dependencies
-```bash
-npm install
-```
-
-### 3) Start JSON Server (Backend)
-```bash
-npx json-server --watch data/db.json --port 3001
-```
-
-### 4) Start the React App (Frontend)
-
-```bash
-npm run dev
 ```
