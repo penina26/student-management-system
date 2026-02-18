@@ -121,16 +121,19 @@ project-root/
 ```bash
 git clone https://github.com/penina26/student-management-system
 cd student-management-system
-
+```
 ### 2) Install dependencies
 ```bash
 npm install
+```
 
 ### 3) Start JSON Server (Backend)
 ```bash
 npx json-server --watch data/db.json --port 3001
+```
 
 ### 4) Start the React App (Frontend)
 
 ```bash
 npm run dev
+```
