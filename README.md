@@ -19,8 +19,6 @@ It helps:
 - Administrators manage students and courses
 - Students view enrolled courses and results (future enhancement)
 
----
-
 ## Problem Statement
 Most academic institutions struggle with keeping student data and course records due to manual processing. This can lead to:
 - Data loss
