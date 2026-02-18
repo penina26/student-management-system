@@ -3,7 +3,6 @@
 A simple **Student Course Management System** built with **React (Vite)**, **Tailwind CSS**, and **JSON Server**.  
 It allows administrators to manage **students**, **courses**, and **enrollments** (including assigning grades).
 
----
 
 ## Authors
 - Penina Wanyama  
@@ -12,7 +11,6 @@ It allows administrators to manage **students**, **courses**, and **enrollments*
 - Sylvana Wanjiru  
 - Robert Mmasi  
 
----
 
 ## Introduction
 A Student Course Management System (SCMS) is a software application designed to manage student information, course details, enrollments, and academic records efficiently.
@@ -30,12 +28,10 @@ Most academic institutions struggle with keeping student data and course records
 - Inconsistencies
 - Slow retrieval of academic records
 
----
 
 ## Solution Statement
 SCMS provides a platform for managing student and course registrations and enables easy access to consistent and complete information.
 
----
 
 ## Objectives
 - Maintain student records
@@ -43,7 +39,6 @@ SCMS provides a platform for managing student and course registrations and enabl
 - Handle course enrollment
 - Reduce manual paperwork
 
----
 
 ## Scope of the Project
 - Create student and course registration forms (CRUD)
@@ -52,7 +47,6 @@ SCMS provides a platform for managing student and course registrations and enabl
 - Delete course or student information
 - Deploy to a web hosting service (future)
 
----
 
 ## Key Features
 ✅ Students CRUD (Create, Read, Update, Delete)  
@@ -64,7 +58,6 @@ SCMS provides a platform for managing student and course registrations and enabl
 ✅ Assign and update grades  
 ✅ Remove enrollments  
 
----
 
 ## Technologies Used
 - **Frontend:** React (Vite)
@@ -72,9 +65,6 @@ SCMS provides a platform for managing student and course registrations and enabl
 - **Styling:** Tailwind CSS
 - **Mock Backend:** JSON Server
 
----
-
----
 
 ## Setup & Installation
 
@@ -98,7 +88,7 @@ npx json-server --watch data/db.json --port 3001
 ```bash
 npm run dev
 ```
----
+
 ## Project Structure
 
 ```
